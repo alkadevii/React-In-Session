@@ -1,10 +1,12 @@
-.card{
-    border: 1px black solid;
-    border-radius: 20px;
-    background-color: aqua;
+/* Styles for the profile card container */
+.card {
+  border: 1px solid black;   /* Adds a black border */
+  border-radius: 20px;       /* Rounds the corners */
+  background-color: aqua;    /* Sets background color */
 }
 
-.description{
-    color: brown;
-    font-size: 14px;
+/* Styles for the description text */
+.description {
+  color: brown;              /* Text color */
+  font-size: 14px;           /* Text size */
 }

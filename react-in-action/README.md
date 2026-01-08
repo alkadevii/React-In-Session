@@ -1,16 +1,31 @@
-# React + Vite
+# React-in-Action
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains lecture materials and example code for learning **React**.
 
-Currently, two official plugins are available:
+## 📌 About
+**React-in-Action** is a lecture-based repository designed to help students understand React fundamentals through hands-on examples and practice code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Topics Covered
+- React components
+- Props and state
+- Event handling
+- Conditional rendering
+- Hooks (`useState`, `useEffect`)
+- API calls
+- Component-based UI design
 
-## React Compiler
+## 🎯 Purpose
+This repository is intended for **learning and teaching React**, with simple, clear examples used during lectures.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 How to Use
+- Clone the repository
+- Run examples and experiment with the code
 
-## Expanding the ESLint configuration
+## 📚 Audience
+- Beginners learning React
+- Students attending React lectures
+- Anyone revising React basics
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+Happy Learning! ⚛️
