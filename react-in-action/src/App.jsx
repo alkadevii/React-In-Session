@@ -4,18 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import HelloWorld from './components/HelloWorld'
 import HelloImage from './components/HelloImage'
-import UserList from './components/UserList'
-import ProfileCard from './components/ProfileCard'
-import Button from './components/Button'
 
 function App() {
   
   return (
    <div>
-    <HelloWorld/>
-    <HelloImage/>
-    <UserList/>
-    <ProfileCard/>
+     <p>Working on the APP</p>
    </div>
   )
 }
