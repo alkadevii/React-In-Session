@@ -1,4 +1,4 @@
-function ProductCard({ title, price }) {
+function ProductCard(props) {
   return (
     <div
       style={{
@@ -8,8 +8,8 @@ function ProductCard({ title, price }) {
         width: "200px",
       }}
     >
-      <h3>{title}</h3>
-      <p>Price: ₹{price}</p>
+      <h3>{props.title}</h3>
+      <p>Price: ₹{props.price}</p>
     </div>
   );
 }
