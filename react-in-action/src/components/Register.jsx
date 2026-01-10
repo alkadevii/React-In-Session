@@ -4,7 +4,12 @@ function Register(){
     const handleRegister = () =>{
         alert("Welcome! You clicked register");
     }
-    return <Button label="Register" onClick={handleRegister}/>
+    return (
+        <div>
+            <h1>Register page</h1>
+            <Button label="Register" onClick={handleRegister}/>
+        </div>
+    )
 }
 
 export default Register;

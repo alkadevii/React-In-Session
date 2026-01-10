@@ -1,21 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import HelloWorld from './components/HelloWorld'
-import HelloImage from './components/HelloImage'
-import Greeting from './components/Greeting'
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Home from './components/Home'
 import Login from './components/Login'
 import Register from './components/Register'
-import ProductCardList from './components/ProductList'
-import Parent from './components/Parent'
-
+import Navbar from './components/Navbar'
+import Greeting from './components/Greeting'
+import Products from './components/Products'
+import ProductDetail from './components/ProductDetail'
 function App() {
   
   return (
-   <div>
-    <Parent/>
-   </div>
+   <BrowserRouter>
+       <Navbar/>
+       <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login/>} />
+            <Route path="/register" element={<Register/>} />
+            <Route path="/username" element={<Greeting/>} />
+            <Route path="/products" element={<Products/>} />
+            <Route path="/products/:id" element={<ProductDetail/>} />
+
+       </Routes>
+   </BrowserRouter>
   )
 }
 
